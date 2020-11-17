@@ -1,1 +1,11 @@
 # AerialMPTNet
+Visual Object Tracking with CCTV or high quality video data is a common and well-researched topic nowadays. However, the interest in tracking approaches for remote sensing scenarios remains low and the challenges are diverse; nevertheless, there are many important and interesting use cases out there, such as intelligent freight rooting, path optimization of vehicles, security monitoring, or animal migration behavior to name a few.
+
+During my master thesis, I dealt pedestrian and car tracking in remote sensing scenarios and wrote a paper which is about to be published in the ICPR conference. Unfortunately, the code corresponding to this work can not be published here due to confidentiality agreements; however, you find the paper here. Eventually, it will help you solving some problems you face while dealing with object tracking in remote sensing scenarios regarding A) path prediction, and B) neighbor modeling.
+
+
+
+Abstract
+--------
+
+Multi-pedestrian tracking in aerial imagery has several applications such as large-scale event monitoring, disaster management, search-and-rescue missions, and as input intovpredictive crowd dynamic models. Due to the challenges such as the large number and the tiny size of the pedestrians (e.g.,4×4 pixels) with their similar appearances as well as different scales and atmospheric conditions of the images with their extremely low frame rates (e.g., 2 fps), current state-of-the-art algorithms including the deep learning-based ones are unable to perform well. In this paper, we propose AerialMPTNet, a novel approach for multi-pedestrian tracking in geo-referenced aerial imagery by fusing appearance features from a Siamese Neural Network, movement predictions from a Long Short-Term Memory, and pedestrian interconnections from a GraphCNN. In addition, to address the lack of diverse aerial pedestrian tracking datasets, we introduce the Aerial Multi-Pedestrian Tracking (AerialMPT) dataset consisting of 307 frames and 44,740 pedestrians annotated. We believe that AerialMPT is the largest and most diverse dataset to this date and will be released publicly. We evaluate AerialMPTNet on AerialMPT and KIT AIS, and benchmark with several state-of-the-art tracking methods. Results indicate that AerialMPTNet significantly outperforms other methods on accuracy and time-efficiency.
